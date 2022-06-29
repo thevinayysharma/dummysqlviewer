@@ -1,23 +1,23 @@
-# SqlViewer
+# Dummy Sql Query Visualizer
 
-[View live project](https://getsqlviewer.netlify.app/)
+__[View live](https://getsqlviewer.netlify.app/)__
 
-- Dummy SQL query viewer application. Built with React & deployed on Netlify.
+- Dummy SQL query visualizer application. Built with React.js Library & deployed on ❤️ Netlify.
 
-[]! //gif fo working project
 
 ## How it works ?
 
 - Block Diagram.
-- Decision taken while building. Please refer to [google doc](https://docs.google.com/document/d/1DnfRGAHtvWO6AhkJD_WQToCXuqpsE6lNZUleXXCKgDs/edit?usp=sharing).
+- Please refer to my __[google doc](https://docs.google.com/document/d/1DnfRGAHtvWO6AhkJD_WQToCXuqpsE6lNZUleXXCKgDs/edit?usp=sharing)__ to find out, how I learned & approached step by step to build the required application.
 
 ## Optmizations, performance and measurements.
 
-- Reduced bundle size. Didnt use any dependencies besides, create-react-app. For a full - fledged application, toned down version of node_modules/dev dependencies is the right choice.
-
-- React.useMemo hook can be utilzed to cache the result of table.
-
-- Web Vitals: TTFB, TLB, TCB.
+- Reduced bundle size. Didn't use any dependencies. For a full - fledged application, toned down version of tanstack-table and react dropdown would be the right choice.
+- Used useMemo hook for caching table data.
+- Performance details via [Lighthouse](https://drive.google.com/file/d/1CcfkjZhVv03vHY7LBbigFxTZ8xGvmgb_/view?usp=sharing). Score: 100.
+![image](https://user-images.githubusercontent.com/68610608/176541272-3d0e1121-9704-4688-a5ae-c5629194e09f.png)
+- Dropdown Multi-table checkouts enabled, by a tweak using synthetic events in React.
+- Used same colors to drive UI behavior same across components.
 
 ## Installation
 
@@ -40,4 +40,4 @@ yarn run
 
 ## About this Repository
 
-- This application was part of an assessment for a data-centric Startup hiring process.
+- This application was part of an assessment for a data-centric Startup hiring process.You are welcome to provide best practices, code-reviews, guide for better learning.
