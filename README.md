@@ -7,7 +7,9 @@ __[View live](https://getsqlviewer.netlify.app/)__
 
 ## How it works ?
 
-- Block Diagram.
+- Flow Diagram => 
+![image](https://user-images.githubusercontent.com/68610608/176555891-10cd8b30-8e5a-4cb3-8919-a0b71f9fc0e3.png)
+
 - Please refer to my __[google doc](https://docs.google.com/document/d/1DnfRGAHtvWO6AhkJD_WQToCXuqpsE6lNZUleXXCKgDs/edit?usp=sharing)__ to find out, how I learned & approached step by step to build the required application.
 
 ## Optmizations, performance and measurements.
