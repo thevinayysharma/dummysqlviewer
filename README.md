@@ -1,6 +1,6 @@
 # SqlViewer
 
-[view liver project]()
+[View live project](https://getsqlviewer.netlify.app/)
 
 - Dummy SQL query viewer application. Built with React & deployed on Netlify.
 
