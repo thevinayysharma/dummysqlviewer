@@ -1,0 +1,35 @@
+.tableContainer {
+  float: right;
+  width: 58%;
+  font-family: sans-serif;
+  margin: 10px solid green;
+}
+
+table {
+  margin: 3rem auto 20px !important;
+  width: 400px;
+  height: 100px;
+  border-collapse: collapse;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  color: #334155;
+}
+
+th {
+  border: 2px solid #555572;
+  padding: 0.8rem;
+  border-bottom: 3px solid#555572;
+}
+
+td {
+  padding: 0.2rem;
+  text-align: center;
+  border: 2px solid #555572;
+}
+
+.tableMsg {
+  text-align: center;
+  font-weight: 500;
+  color: #276baa;
+  margin-bottom: 4px;
+}

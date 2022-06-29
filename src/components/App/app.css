@@ -1,0 +1,40 @@
+* {
+  font-family: Avenir, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
+    Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  margin: 0px;
+  padding: 0px;
+  background-image: url(https://global-uploads.webflow.com/61531b23c347e4fbd4a84209/619b16d9bb2a7f6d18d19737_dots2.svg);
+}
+
+.App {
+  background-color: #fff;
+  margin-top: 14px;
+  text-align: center;
+}
+
+h1 {
+  color: #225c92;
+}
+
+h4 {
+  color: #555572;
+  font-weight: 500;
+  font-size: 1.2rem;
+  display: block;
+}
+
+.flexContainer {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+.writebelowformMsg {
+  text-align: left;
+  margin-left: 3.5rem;
+  margin-top: 9rem;
+  font-weight: 500;
+  font-size: 18px;
+  color: #555572;
+}
